@@ -68,5 +68,7 @@ adb shell "su -c 'rm -rf /system/app/Hangouts'"
 echo "Removing Google Play Music"
 adb shell "su -c 'rm -rf /system/app/Music2'"
 
-echo 'Done. Rebooting...'
+echo 'Rebooting...'
 adb shell "reboot"
+
+echo 'Done.'
